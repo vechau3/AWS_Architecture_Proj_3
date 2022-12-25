@@ -1,0 +1,9 @@
+Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
+
+# Poor practice 1
+The S3 does not enabled encryption, the attacker can easily get all the version unenscripted of files store in S3 if they have read access.
+- Solution: need to enable default encryption to S3.
+
+# Poor practice 2
+These Security Groups using CIDRIP 0.0.0.0/0. That accept all incoming connection request.
+- Solution: need to apply rules to control and limit the traffic request.

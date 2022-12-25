@@ -1,0 +1,8 @@
+# Describe GuardDuty findings that were detected related to the brute force attack
+
+Performing SSH brute force attacks against 10.192.10.37. Brute force attacks are used to gain unauthorized access to your instance by guessing the SSH password. 
+
+# Research the AWS Guard Duty documentation page and explain how GuardDuty may have detected this attack - i.e. what was its source of information.
+
+Amazon GuardDuty is a security monitoring service that detect various activities through DNS logs, Kubernets audit logs ...
+In case brute force attack, Amazon GuardDuty detect by analyzing VPC Flow Logs.

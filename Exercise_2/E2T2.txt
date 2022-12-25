@@ -1,0 +1,8 @@
+Research and analyze which of the vulnerabilities appear to be related to the code that was deployed for the environment in this project.
+
+- Application server has been configed with security group allow traffic from 0.0.0.0/0 to port 22 that mean the incoming SSH traffic for security groups is accessible.
+Need to config Inbound Rules to restrict access through port 22
+
+- Make sure S3 bucket has enabled default encryption.
+
+- Security group for VPC should be closed.

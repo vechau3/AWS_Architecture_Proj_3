@@ -1,0 +1,23 @@
+# Identify tools that will allow you to do the following:
+
+## Scan infrastructure as code templates
+1. Checkov
+
+### Example vulnerability
+- Checkov detect cloud misconfigurations, it scans your cloud infrastructure,
+which is managed in Kubernetes, Terraform, and Cloudformation
+
+## Scan AMI’s or containers for OS vulnerabilities
+1. Docker Bench
+2. Habor
+
+### Example vulnerability
+- Analyze, inspect, perform security scans, evaluate custom policies against container images.
+
+## Scan an AWS environment for cloud configuration vulnerabilities
+1. Amazon Inspector
+
+### Example vulnerability
+- Check EC2 instance from internet.
+- Check vulnerable software versions installed.
+- Check IAM role policy assigned.
